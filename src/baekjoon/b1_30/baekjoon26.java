@@ -2,7 +2,7 @@ package baekjoon.b1_30;
 
 import java.util.Scanner;
 
-public class baekjoon26실패 {
+public class baekjoon26 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
