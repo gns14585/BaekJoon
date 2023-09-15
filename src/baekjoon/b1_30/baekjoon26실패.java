@@ -7,27 +7,21 @@ public class baekjoon26실패 {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
+        int[] arr = new int[n];
         int m = sc.nextInt();
 
-        int[] arr = new int[n];
-
         for (int i = 0; i < m; i++) {
-            int start = sc.nextInt() -1;
-            int end = sc.nextInt() -1;
-            int value = sc.nextInt();
+            int I = sc.nextInt();
+            int J = sc.nextInt();
+            int K = sc.nextInt();
 
-            for (int j = start; j <= end; j++) {
-                arr[j] += value;
+            for (int j = I-1; j < J; j++) {
+                arr[j] = K;
             }
         }
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
 
-        int max = arr[0];
-        for (int i = 0; i < n; i++) {
-            if (arr[i] > max) {
-                max = arr[i];
-            }
         }
-        System.out.println(max);
-        sc.close();
     }
 }
