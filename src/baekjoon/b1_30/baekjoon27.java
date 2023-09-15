@@ -1,6 +1,5 @@
-package P99_baekjoon.b1_30;
+package baekjoon.b1_30;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
 

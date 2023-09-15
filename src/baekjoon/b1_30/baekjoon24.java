@@ -1,6 +1,5 @@
-package P99_baekjoon.b1_30;
+package baekjoon.b1_30;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class baekjoon24 {
